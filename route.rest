@@ -1,0 +1,11 @@
+GET http://localhost:3000/sailors
+
+###
+
+POST http://localhost:3000/sailors
+Content-Type: application/application/json
+
+{
+    "firstName": "John",
+    "lastName": "Elie"
+}
