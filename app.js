@@ -14,6 +14,7 @@ app.use(bodyParser.json())
 
 // Sailors Router
 const sailorsRouter = require('./routes/sailors')
+// Ce code permet de ne pas répéter '/sailor' dans l'url
 app.use('/sailors', sailorsRouter)
 
 
